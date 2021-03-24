@@ -19,7 +19,7 @@ The package also contains a set of tools for pre- and postprocessing:
 - Plotting utilities in the `plot` folder 
 - Cross-validation utilities in the `cross-validation` folder  
 
- ![AIG sprm score space](https://github.com/SvenSerneels/direpack/blob/master/img/AIG_T12.png "AIG SPRM score space")
+ ![AIG sprm score space](./img/AIG_T12.png "AIG SPRM score space")
 
 
 Methods in the `sprm` folder

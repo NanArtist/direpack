@@ -1,7 +1,7 @@
 Diverse (co-)moment statistics 
 ==============================
 
-This class implements (co)-moment statistics, covering both clasical product-moment 
+This class implements (co)-moment statistics, covering both classical product-moment 
 statistics, as well as more recently developed energy statistics. 
 The `dicomo` class also serves as a plug-in into `capi` and  `ppdire`. It has been written consistently with `ppdire` such that it provides a wide range of 
 projection indices based on (co-)moments.    
