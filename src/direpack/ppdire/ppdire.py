@@ -328,7 +328,7 @@ class ppdire(_BaseComposition,BaseEstimator,TransformerMixin,RegressorMixin):
             y = convert_y_input(y)
             if len(y.shape) < 2:
                 y = np.matrix(y).reshape((ny,1))
-#            py = y.shape[1]
+            # py = y.shape[1]
             if ny != n:
                 raise(MyException('X and y number of rows must agree'))
             if self.copy:
@@ -694,7 +694,7 @@ class ppdire(_BaseComposition,BaseEstimator,TransformerMixin,RegressorMixin):
         Xn = convert_X_input(Xn)
         (n,p) = Xn.shape
         if p!= self.coef_.shape[0]:
-            raise(ValueError('New data must have seame number of columns as the ones the model has been trained with'))
+            raise(ValueError('New data must have same number of columns as the ones the model has been trained with'))
         Xnc = scale_data(Xn,self.x_loc_,self.x_sca_)
         return(Xnc*self.x_rotations_)
         
